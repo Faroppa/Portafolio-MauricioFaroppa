@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="media.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="nav-pc">
+      <div class="logo">Mauricio Faroppa</div>
+      <div>
+        <ul class="links-nav">
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#experiencia">Conocimientos</a></li>
+          <!-- <li><a href="#proyectos">Proyectos</a></li> -->
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="nav-hamburguesa">
+      <div class="logo">Mauricio Faroppa</div>
+      <div class="menu-hamburgeuesa">
+        <div class="icono-hamburguesa" onclick="abrirMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links-menu">
+          <li><a href="#sobre-mi " onclick="abrirMenu()">Sobre mi</a></li>
+          <li>
+            <a href="#experiencia" onclick="abrirMenu()">Conocimientos</a>
+          </li>
+          <!-- <li><a href="#proyectos" onclick="abrirMenu()">Proyectos</a></li> -->
+          <li><a href="#contacto" onclick="abrirMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="perfil">
+      <div class="section-imagen">
+        <img src="./docs/foto1.png" alt="foto-perfil"
+      </div>
+      <br /><br />
+      <div class="section-texto">
+        <p class="section-texto-p1">Hola soy...</p>
+        <h1 class="titulo">Mauricio</h1>
+        <p class="section-texto-p2">Futuro Desarrollador FrontEnd</p>
+        <div class="caja-boton">
+          <button
+            class="boton boton-color2"
+            onclick="window.open('./docs/Curriculo.pdf')"
+          >
+            Descargar Curriculo
+          </button>
+          <button
+            class="boton boton-color1"
+            onclick="location.href='./#contacto'"
+          >
+            Contacto
+          </button>
+        </div>
+        <div id="redes-sociales">
+          <img
+            src="./docs/linkedin.png"
+            alt="Mi linkedin"
+            class="icono"
+            onclick="location.href='https://www.linkedin.com/in/mauricio-faroppa-05888b263/'"
+          />
+          <img
+            src="./docs/github.png"
+            alt="Mi github"
+            class="icono"
+            onclick="location.href='https://github.com/Faroppa' "
+          />
+        </div>
+      </div>
+      <img
+        src="./docs/arrow.png"
+        alt="icono flecha"
+        class="flecha-icono2"
+        onclick="location.href='./#sobre-mi'"
+      />
+    </section>
+    <section id="sobre-mi">
+      <p class="section-texto-p1">Aprende mas de mi</p>
+      <h1 class="titulo">Sobre Mi</h1>
+      <div class="section-caja">
+        <div class="section-imagen">
+          <img
+            src="./docs/sobre-mi.JPG"
+            alt="foto-perfil"
+            class="sobre-mi-pic"
+          />
+        </div>
+        <div class="sobreMi-caja">
+          <div class="sobre-caja">
+            <div class="detalles-caja">
+              <img
+                src="./docs/experience.png"
+                alt="icono-experiencia"
+                class="icono2"
+              />
+              <h3>Experiencia</h3>
+
+              <p>-Ninguna...(aun)</p>
+            </div>
+            <div class="detalles-caja">
+              <img
+                src="./docs/education.png"
+                alt="icono-educacion"
+                class="icono2"
+              />
+              <h3>Educacion</h3>
+              <p>-Grado Superior DAW (En proceso) - Solvam</p>
+              <p>-Bachillerato - Menca De Leoni</p>
+            </div>
+          </div>
+          <div class="texto-caja">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./docs/arrow.png"
+        alt="icono flecha"
+        class="flecha-icono"
+        onclick="location.href='./#experiencia'"
+      />
+    </section>
+    <section id="experiencia">
+      <p class="section-texto-p1">Mis</p>
+      <h1 class="titulo">Conocimientos</h1>
+      <br /><br />
+      <div class="experiencia-detalles-caja">
+        <div class="sobre-caja">
+          <div class="detalles-caja">
+            <h2 class="experiencia-subtitulo"></h2>
+            <div class="article-caja">
+              <article>
+                <img
+                  src="./docs/checkmark.png"
+                  alt="icono-experiencia"
+                  class="icono"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./docs/checkmark.png"
+                  alt="icono-experiencia"
+                  class="icono"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermedio-Bajo</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./docs/checkmark.png"
+                  alt="icono-experiencia"
+                  class="icono"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./docs/checkmark.png"
+                  alt="icono-experiencia"
+                  class="icono"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./docs/checkmark.png"
+                  alt="icono-experiencia"
+                  class="icono"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Basico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./docs/arrow.png"
+        alt="icono flecha"
+        class="flecha-icono"
+        onclick="location.href='./#contacto'"
+      />
+    </section>
+    <section id="contacto">
+      <p class="section-texto-p1">Email y Linked &dArr;</p>
+      <h1 class="titulo">Contáctate Conmigo!</h1>
+      <div class="info-contacto-caja">
+        <div class="caja-contacto">
+          <img
+            src="./docs/email.png"
+            alt="email-icono"
+            class="icono-contacto"
+          />
+          <p>
+            <a href="mailto:mauriciofaroppa19@gmail.com">Mandame un mail!</a>
+          </p>
+        </div>
+
+        <div class="caja-contacto">
+          <img
+            src="./docs/linkedin.png"
+            alt="linkedin-icono"
+            class="icono-contacto"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/mauricio-faroppa-05888b263/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+      <div class="caja-nav-links">
+        <ul class="links-nav">
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#experiencia">Conocimientos</a></li>
+          <!-- <li><a href="#proyectos">Proyectos</a></li> -->
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <p class="section-texto-p1">
+        Copyright &copy; 2023. Todos los derechos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
